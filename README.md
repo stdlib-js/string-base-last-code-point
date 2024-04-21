@@ -121,7 +121,6 @@ str = lastCodePoint( '六书/六書', 3 );
 
 <section class="related">
 
-
 </section>
 
 <!-- /.related -->
@@ -165,8 +164,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base-last-code-point.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base-last-code-point
 
-[test-image]: https://github.com/stdlib-js/string-base-last-code-point/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/string-base-last-code-point/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/string-base-last-code-point/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/string-base-last-code-point/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base-last-code-point/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base-last-code-point?branch=main
@@ -199,7 +198,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-last-code-point/main/LICENSE
 
 <!-- <related-links> -->
-
 
 <!-- </related-links> -->
 
