@@ -35,38 +35,32 @@ limitations under the License.
 
 > Return the last `n` Unicode code points of a string.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-last-code-point
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-lastCodePoint = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var lastCodePoint = require( 'path/to/vendor/umd/string-base-last-code-point/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.lastCodePoint;
-})();
-</script>
+var lastCodePoint = require( '@stdlib/string-base-last-code-point' );
 ```
 
 #### lastCodePoint( str, n )
@@ -97,13 +91,8 @@ s = lastCodePoint( 'foo bar', 10 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var lastCodePoint = require( '@stdlib/string-base-last-code-point' );
 
 var str = lastCodePoint( 'Hello World', 1 );
 // returns 'd'
@@ -122,11 +111,6 @@ str = lastCodePoint( 'अनुच्छेद', 1 );
 
 str = lastCodePoint( '六书/六書', 3 );
 // returns '/六書'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -136,6 +120,14 @@ str = lastCodePoint( '六书/六書', 3 );
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/first-code-point`][@stdlib/string/base/first-code-point]</span><span class="delimiter">: </span><span class="description">return the first Unicode code point of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/last-grapheme-cluster`][@stdlib/string/base/last-grapheme-cluster]</span><span class="delimiter">: </span><span class="description">return the last grapheme cluster (i.e., user-perceived character) of a string.</span>
+-   <span class="package-name">[`@stdlib/string-base/last`][@stdlib/string/base/last]</span><span class="delimiter">: </span><span class="description">return the last UTF-16 code unit of a string.</span>
 
 </section>
 
@@ -214,6 +206,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-last-code-point/main/LICENSE
 
 <!-- <related-links> -->
+
+[@stdlib/string/base/first-code-point]: https://github.com/stdlib-js/string-base-first-code-point
+
+[@stdlib/string/base/last-grapheme-cluster]: https://github.com/stdlib-js/string-base-last-grapheme-cluster
+
+[@stdlib/string/base/last]: https://github.com/stdlib-js/string-base-last
 
 <!-- </related-links> -->
 
