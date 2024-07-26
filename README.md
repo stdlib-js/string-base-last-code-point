@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@deno/mod.js';
+import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@v0.1.1-deno/mod.js';
 ```
 
 #### lastCodePoint( str, n )
@@ -74,7 +74,7 @@ s = lastCodePoint( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@deno/mod.js';
+import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@v0.1.1-deno/mod.js';
 
 var str = lastCodePoint( 'Hello World', 1 );
 // returns 'd'
