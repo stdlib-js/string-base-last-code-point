@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.1">
 
-## Unreleased (2024-08-01)
+## 0.1.1 (2024-07-26)
 
 <section class="commits">
 
@@ -12,7 +12,40 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`ec98887`](https://github.com/stdlib-js/stdlib/commit/ec9888724c28aa7218d88ff62b91b71c0089c559) - **docs:** update related packages sections [(#2241)](https://github.com/stdlib-js/stdlib/pull/2241) _(by stdlib-bot)_
+-   [`189c569`](https://github.com/stdlib-js/stdlib/commit/189c5691b88b36a2fd1ff53368e6d44b90e40535) - **docs:** update related packages sections [(#2194)](https://github.com/stdlib-js/stdlib/pull/2194) _(by stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2024-04-13)
+
+<section class="features">
+
+### Features
+
+-   [`7bce237`](https://github.com/stdlib-js/stdlib/commit/7bce23772744ae439e8fc4d86f1abf92ea8a8b05) - add `string/base/last-code-point`
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7bce237`](https://github.com/stdlib-js/stdlib/commit/7bce23772744ae439e8fc4d86f1abf92ea8a8b05) - **feat:** add `string/base/last-code-point` _(by Aditya Sapra, Pranav, Philipp Burckhardt)_
 
 </details>
 
@@ -24,33 +57,15 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
--   Athan Reines
+-   Aditya Sapra
+-   Philipp Burckhardt
+-   Pranav
 
 </section>
 
 <!-- /.contributors -->
-
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.1.1">
-
-## 0.1.1 (2024-07-26)
-
-No changes reported for this release.
-
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.1.0">
-
-## 0.1.0 (2024-04-13)
-
-No changes reported for this release.
 
 </section>
 
