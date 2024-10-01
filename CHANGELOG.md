@@ -61,7 +61,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 -   Aditya Sapra
 -   Philipp Burckhardt
--   Pranav
+-   Pranav Goswami
 
 </section>
 
