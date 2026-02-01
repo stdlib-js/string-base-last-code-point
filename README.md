@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-last-code-point/tags). For example,
+
+```javascript
 import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@v0.1.2-deno/mod.js';
 ```
 
@@ -74,7 +79,7 @@ s = lastCodePoint( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@v0.1.2-deno/mod.js';
+import lastCodePoint from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-last-code-point@deno/mod.js';
 
 var str = lastCodePoint( 'Hello World', 1 );
 // returns 'd'
